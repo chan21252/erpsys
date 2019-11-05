@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+/* 统一样式 */
+html, body, div, img, table, tbody, td, tr, form, ul, li{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+div, img {
+    display: block;
+}
+
+table, tbody, td, tr {
+    border-spacing: 0;
+}
+
+ul, li {
+    list-style: none;
+}
+
+/* 整体布局 */
+#container-table {
+    width: 100%;
+    height: 100%;
+}
+
+#top {
+    width: 100%;
+    height: 210px;
+}
+
+#content {
+    width: 100%;
+    height: 100%;
+}
+
+#content>td {
+    height: 100%;
+}
+
+#left {
+    width: 200px;
+}
+
+#right {
+    width: auto;
+}
+
+#footer {
+    width: 100%;
+    height: 50px;
+}
+
+#main-panel {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.data-table {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    border-collapse: collapse;
+}
+
+.data-table>thead {
+    background: skyblue;
+}
+
+.data-table td {
+    text-align: center;
+    padding: 5px 10px;
+    border: solid #afafaf 1px;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+button {
+    padding: 5px 10px;
+    border: solid 1px #afafaf;
+    border-radius: 5px;
+    background: skyblue;
+    cursor: pointer;
+}
+
+button:hover{
+    color: #ffffff;
+    background: #00bbff;
+}
